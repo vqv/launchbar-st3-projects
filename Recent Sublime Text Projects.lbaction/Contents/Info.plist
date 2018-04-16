@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>com.sublimetext.3</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.fittedvalues.LaunchBar.action.NewAction</string>
+	<key>CFBundleName</key>
+	<string>Recent Sublime Text Projects</string>
+	<key>LBAssociatedApplication</key>
+	<string>com.sublimetext.3</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Vincent Q. Vu</string>
+		<key>LBEmail</key>
+		<string>vqv@me.com</string>
+		<key>LBRequirements</key>
+		<string>Sublime Text 3</string>
+		<key>LBResult</key>
+		<string>The list of recently opened Sublime Text projects</string>
+		<key>LBSummary</key>
+		<string>This action returns a list of recently opened Sublime Text 3 projects</string>
+		<key>LBTwitter</key>
+		<string></string>
+		<key>LBWebsiteURL</key>
+		<string></string>
+	</dict>
+	<key>LBRequiredApplication</key>
+	<string>com.sublimetext.3</string>
+	<key>LBRequirements</key>
+	<string>Sublime Text 3</string>
+	<key>LBResult</key>
+	<string>The list of recently opened Sublime Text projects</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>default.py</string>
+		</dict>
+	</dict>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.10</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2016 Vincent Q. Vu</string>
+</dict>
+</plist>
