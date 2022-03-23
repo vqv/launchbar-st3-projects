@@ -20,4 +20,4 @@ items = [dict(title = os.path.splitext(os.path.basename(path))[0],
               icon = "com.sublimetext.3") 
           for path in workspaces]
 
-print json.dumps(items)
+print(json.dumps(items))
